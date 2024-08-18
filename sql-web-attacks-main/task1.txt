@@ -1,0 +1,4 @@
+login="bob'); -- "
+password=""
+
+I skipped the password requiremnt by shortening the query early so the website does not check if the password matches, just for a login where the user does exist

